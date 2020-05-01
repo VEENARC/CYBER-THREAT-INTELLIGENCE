@@ -1,0 +1,264 @@
+What Is Threat Intelligence?
+Digital technologies lie at the heart of nearly every industry today. The automation and greater connectedness they afford have revolutionized the world’s economic and cultural institutions — but they’ve also brought risk in the form of cyberattacks. Threat intelligence is knowledge that allows you to prevent or mitigate those attacks. Rooted in data, threat intelligence provides context — like who is attacking you, what their motivation and capabilities are, and what indicators of compromise in your systems to look for — that helps you make informed decisions about your security.
+
+“Threat intelligence is evidence-based knowledge, including context, mechanisms, indicators, implications and action-oriented advice about an existing or emerging menace or hazard to assets. This intelligence can be used to inform decisions regarding the subject’s response to that menace or hazard.” — Gartner
+
+For more detailed information, check out the sections of this overview titled “The Threat Intelligence Lifecycle” and “The Types of Threat Intelligence.”
+
+
+Why Is Threat Intelligence Important?
+Today, the cybersecurity industry faces numerous challenges — increasingly persistent and devious threat actors, a daily flood of data full of extraneous information and false alarms across multiple, unconnected security systems, and a serious shortage of skilled professionals.
+
+Some organizations try to incorporate threat data feeds into their network, but don’t know what to do with all that extra data, adding to the burden of analysts who may not have the tools to decide what to prioritize and what to ignore.
+
+A cyber threat intelligence solution can address each of these issues. The best solutions use machine learning to automate data collection and processing, integrate with your existing solutions, take in unstructured data from disparate sources, and then connect the dots by providing context on indicators of compromise (IoCs) and the tactics, techniques, and procedures (TTPs) of threat actors.
+
+Threat intelligence is actionable — it’s timely, provides context, and is able to be understood by the people in charge of making decisions.
+
+Why is Threat Intelligence Important
+
+
+Who Can Benefit From Threat Intelligence?
+Everyone! Cyber threat intelligence is widely imagined to be the domain of elite analysts. In reality, it adds value across security functions for organizations of all sizes.
+
+When threat intelligence is treated as a separate function within a broader security paradigm rather than an essential component that augments every other function, the result is that many of the people who would benefit the most from threat intelligence don’t have access to it when they need it.
+
+Security operations teams are routinely unable to process the alerts they receive — threat intelligence integrates with the security solutions you already use, helping automatically prioritize and filter alerts and other threats. Vulnerability management teams can more accurately prioritize the most important vulnerabilities with access to the external insights and context provided by threat intelligence. And fraud prevention, risk analysis, and other high-level security processes are enriched by the understanding of the current threat landscape that threat intelligence provides, including key insights on threat actors, their tactics, techniques, and procedures, and more from data sources across the web.
+
+Look at our section on use cases below for a deeper look at how every security role can benefit from threat intelligence.
+
+
+The Threat Intelligence Lifecycle
+So, how does cyber threat intelligence get produced? Raw data is not the same thing as intelligence — cyber threat intelligence is the finished product that comes out of a six-part cycle of data collection, processing, and analysis. This process is a cycle because new questions and gaps in knowledge are identified during the course of developing intelligence, leading to new collection requirements being set. An effective intelligence program is iterative, becoming more refined over time.
+
+To maximize the value of the threat intelligence you produce, it’s critical that you identify your use cases and define your objectives before doing anything else.
+
+
+1. Planning and Direction
+The first step to producing actionable threat intelligence is to ask the right question.
+
+The questions that best drive the creation of actionable threat intelligence focus on a single fact, event, or activity — broad, open-ended questions should usually be avoided.
+
+Prioritize your intelligence objectives based on factors like how closely they adhere to your organization’s core values, how big of an impact the resulting decision will have, and how time sensitive the decision is.
+
+One important guiding factor at this stage is understanding who will consume and benefit from the finished product — will the intelligence go to a team of analysts with technical expertise who need a quick report on a new exploit, or to an executive that’s looking for a broad overview of trends to inform their security investment decisions for the next quarter?
+
+
+2. Collection
+The next step is to gather raw data that fulfills the requirements set in the first stage. It’s best to collect data from a wide range of sources — internal ones like network event logs and records of past incident responses, and external ones from the open web, the dark web, and technical sources.
+
+Threat data is usually thought of as lists of IoCs, such as malicious IP addresses, domains, and file hashes, but it can also include vulnerability information, such as the personally identifiable information of customers, raw code from paste sites, and text from news sources or social media.
+
+
+3. Processing
+Once all the raw data has been collected, you need to sort it, organizing it with metadata tags and filtering out redundant information or false positives and negatives.
+
+Today, even small organizations collect data on the order of millions of log events and hundreds of thousands of indicators every day. It’s too much for human analysts to process efficiently — data collection and processing has to be automated to begin making any sense of it.
+
+Solutions like SIEMs are a good place to start because they make it relatively easy to structure data with correlation rules that can be set up for a few different use cases, but they can only take in a limited number of data types.
+
+If you’re collecting unstructured data from many different internal and external sources, you’ll need a more robust solution. Recorded Future uses machine learning and natural language processing to parse text from millions of unstructured documents across seven different languages and classify them using language-independent ontologies and events, enabling analysts to perform powerful and intuitive searches that go beyond bare keywords and simple correlation rules.
+
+
+4. Analysis
+The next step is to make sense of the processed data. The goal of analysis is to search for potential security issues and notify the relevant teams in a format that fulfills the intelligence requirements outlined in the planning and direction stage.
+
+Threat intelligence can take many forms depending on the initial objectives and the intended audience, but the idea is to get the data into a format that the audience will understand. This can range from simple threat lists to peer-reviewed reports.
+
+
+5. Dissemination
+The finished product is then distributed to its intended consumers. For threat intelligence to be actionable, it has to get to the right people at the right time.
+
+It also needs to be tracked so that there is continuity between one intelligence cycle and the next and the learning is not lost. Use ticketing systems that integrate with your other security systems to track each step of the intelligence cycle — each time a new intelligence request comes up, tickets can be submitted, written up, reviewed, and fulfilled by multiple people across different teams, all in one place.
+
+
+6. Feedback
+The final step is when the intelligence cycle comes full circle, making it closely related to the initial planning and direction phase. After receiving the finished intelligence product, whoever made the initial request reviews it and determines whether their questions were answered. This drives the objectives and procedures of the next intelligence cycle, again making documentation and continuity essential.
+
+
+The Types of Threat Intelligence
+As demonstrated by the threat intelligence lifecycle, the final product will look different depending on the initial intelligence requirements, sources of information, and intended audience. It can be helpful to break down threat intelligence into a few categories based on these criteria.
+
+Threat intelligence is often broken down into three subcategories:
+
+Strategic — Broader trends typically meant for a non-technical audience
+Tactical — Outlines of the tactics, techniques, and procedures of threat actors for a more technical audience
+Operational — Technical details about specific attacks and campaigns
+
+Strategic Threat Intelligence
+Strategic threat intelligence provides a broad overview of an organization’s threat landscape. It’s intended to inform high-level decisions made by executives and other decision makers at an organization — as such, the content is generally less technical and is presented through reports or briefings. Good strategic intelligence should provide insight into areas like the risks associated with certain lines of action, broad patterns in threat actor tactics and targets, and geopolitical events and trends.
+
+Common sources of information for strategic threat intelligence include:
+
+Policy documents from nation-states or nongovernmental organizations
+News from local and national media, industry- and subject-specific publications, or other subject-matter experts
+White papers, research reports, and other content produced by security organizations
+Producing strong strategic threat intelligence starts with asking focused, specific questions to set the intelligence requirements. It also takes analysts with expertise outside of typical cybersecurity skills — in particular, a strong understanding of sociopolitical and business concepts.
+
+Although the final product is non-technical, producing effective strategic intelligence takes deep research through massive volumes of data, often across multiple languages. That can make the initial collection and processing of data too difficult to perform manually, even for those rarified analysts who possess the right language skills, technical background, and tradecraft. A threat intelligence solution that automates data collection and processing helps reduce this burden and allows analysts who do not have as much expertise to work more effectively.
+
+
+Tactical Threat Intelligence
+Tactical threat intelligence outlines the tactics, techniques, and procedures (TTPs) of threat actors. It should help defenders understand, in specific terms, how their organization might be attacked and the best ways to defend against or mitigate those attacks. It usually includes technical context, and is used by personnel directly involved in the defense of an organization, such as system architects, administrators, and security staff.
+
+Reports produced by security vendors are often the easiest way to get tactical threat intelligence. Look for information in reports about the attack vectors, tools, and infrastructure that attackers are using, including specifics about what vulnerabilities are being targeted and what exploits attackers are leveraging, as well as what strategies and tools that they may be using to avoid or delay detection.
+
+Tactical threat intelligence should be used to inform improvements to existing security controls and processes and speed up incident response. Because many of the questions answered by tactical intelligence are unique to your organization, and need to be answered on a short deadline — for example, “Is this critical vulnerability being exploited by threat actors targeting my industry present in my systems?” — having a threat intelligence solution that integrates data from within your own network is crucial.
+
+
+Operational Threat Intelligence
+Operational intelligence is knowledge about cyber attacks, events, or campaigns. It gives specialized insights that help incident response teams understand the nature, intent, and timing of specific attacks.
+
+Because this usually includes technical information — information like what attack vector is being used, what vulnerabilities are being exploited, or what command and control domains are being employed — this kind of intelligence is also referred to as technical threat intelligence. A common source of technical information is threat data feeds, which usually focus on a single type of indicator, like malware hashes or suspicious domains.
+
+But if technical threat intelligence is strictly thought of as deriving from technical information like threat data feeds, then technical and operational threat intelligence are not totally synonymous — more like a Venn diagram with huge overlaps. Other sources of information on specific attacks can come from closed sources like the interception of threat group communications, either through infiltration or breaking into those channels of communication.
+
+Consequently, there are a few barriers to gathering this kind of intelligence:
+
+Access — Threat groups may communicate over private and encrypted channels, or require some proof of identification. There are also language barriers with threat groups located in foreign countries.
+Noise — It can be difficult or impossible to manually gather good intelligence from high-volume sources like chat rooms and social media.
+Obfuscation — To avoid detection, threat groups might employ obfuscation tactics like using codenames.
+Threat intelligence solutions that rely on machine learning processes for automated data collection on a large scale can overcome many of these issues when trying to develop effective operational threat intelligence. A solution that uses natural language processing, for example, will be able to gather information from foreign-language sources without needing human expertise to decipher it.
+
+
+Machine Learning for Better Threat Intelligence
+Data processing takes place at a scale today that requires automation to be comprehensive. Combine data points from many different types of sources — including open, dark web, and technical sources — to form the most robust picture possible.
+
+Machine Learning for Better Threat Intelligence
+
+Recorded Future uses machine learning techniques in four ways to improve data collection and aggregation — to structure data into categories, to analyze text across multiple languages, to provide risk scores, and to generate predictive models.
+
+
+1. To structure data into entities and events
+Ontology has to do with how we split concepts up and how we group them together. In data science, ontologies represent categories of entities based on their names, properties, and relationships to each other, making them easier to sort into hierarchies of sets. For example, Boston, London, and Gothenburg are all distinct entities that will also fall under the broader “city” entity.
+
+If entities represent a way to sort physically distinct concepts, then events sort concepts over time. Recorded Future events are language independent — something like “John visited Paris,” “John took a trip to Paris,” “Джон прилетел в Париж,” and “John a visité Paris” are all recognized as the same event.
+
+Ontologies and events enable powerful searches over categories, letting analysts focus on the bigger picture rather than having to manually sort through data themselves.
+
+
+2. To structure text in multiple languages through natural language processing
+With natural language processing, entities and events are able to go beyond bare keywords, turning unstructured text from sources across different languages into a structured database.
+
+The machine learning driving this process can separate advertising from primary content, classify text into categories like prose, data logs, or code, and disambiguate between entities with the same name (like “Apple” the company, and “apple” the fruit) by using contextual clues in the surrounding text.
+
+This way, the system can parse text from millions of documents daily across seven different languages — a task that would require an impractically large and skilled team of human analysts to do. Saving time like this helps IT security teams work 32 percent more efficiently with Recorded Future.
+
+
+3. To classify events and entities, helping human analysts prioritize alerts
+Machine learning and statistical methodology are used to further sort entities and events by importance — for example, by assigning risk scores to malicious entities.
+
+Risk scores are calculated through two systems: one driven by rules based on human intuition and experience, and the other driven by machine learning trained on an already vetted dataset.
+
+Classifiers like risk scores provide both a judgment (“this event is critical”) and context explaining the score (“because multiple sources confirm that this IP address is malicious”).
+
+Automating how risks are classified saves analysts time sorting through false positives and deciding what to prioritize, helping IT security staff who use Recorded Future spend 34 percent less time compiling reports.
+
+
+4. To forecast events and entity properties through predictive models
+Machine learning can also generate models that predict the future, oftentimes much more accurately than any human analysts, by drawing on the deep pools of data previously mined and categorized.
+
+This is a particularly strong “law of large numbers” application of machine learning — as we continue to draw on more sources of data, these predictive models will become more and more accurate.
+
+
+Threat Intelligence Use Cases
+The diverse use cases of threat intelligence make it an essential resource for cross-functional teams in any organization. Although it’s perhaps the most immediately valuable when it helps you prevent an attack, threat intelligence is also a useful part of triage, risk analysis, vulnerability management, and wide-scope decision making.
+
+
+Incident Response
+Security analysts in charge of incident response report some of the highest levels of stress in the industry, and it’s no wonder why — the rate of cyber incidents has steadily climbed over the last two decades, and a high proportion of daily alerts turn out to false positives. When dealing with real incidents, analysts must often spend time painstakingly sorting through data manually to assess the problem.
+
+Threat intelligence reduces the pressure in multiple ways:
+
+Automatically identifying and dismissing false positives
+Enriching alerts with real-time context, like custom risk scores
+Comparing information from internal and external sources
+Recorded Future users identify risks 10 times faster than they did before integrating threat intelligence into their security solutions, giving them days more time on average to respond to threats in an industry where even seconds can matter.
+
+
+Security Operations
+Most security operations center (SOC) teams must deal with huge volumes of alerts generated by the networks they monitor. Triaging these alerts takes too long, and many are never investigated at all. “Alert fatigue” leads analysts to take alerts less seriously than they should. Threat intelligence solves many of these problems — helping gather information about threats more quickly and accurately, filter out false alarms, speed up triage, and simplify incident analysis. With it, analysts can stop wasting time pursuing alerts based on:
+
+Actions that are more likely to be innocuous rather than malicious
+Attacks that are not relevant to that enterprise
+Attacks for which defenses and controls are already in place
+As well as accelerating triage, threat intelligence can help SOC teams simplify incident analysis and containment. Recorded Future users resolve threats 63 percent faster, cutting the critical hours they spend on remediation by more than half.
+
+
+Vulnerability Management
+Effective vulnerability management means shifting from taking a “patch everything, all the time” approach — one that nobody can realistically ever achieve — to prioritizing vulnerabilities based on actual risk.
+
+Although the number of vulnerabilities and threats has increased every year, research shows that most threats target the same, small proportion of vulnerabilities. Threat actors are also quicker — it now only takes fifteen days on average between a new vulnerability being announced and an exploit targeting it appearing.
+
+This has two implications:
+
+You have two weeks to patch or remediate your systems against a new exploit. If you can’t patch in that timeframe, have a plan to mitigate the damage.
+If a new vulnerability is not exploited within two weeks to three months, it’s unlikely to ever be — patching it can take lower priority.
+Threat intelligence helps you identify the vulnerabilities that pose an actual risk to your organization, going beyond CVE scoring by combining internal vulnerability scanning data, external data, and additional context about the TTPs of threat actors. With Recorded Future, users identify 22 percent more real threats before they have a serious impact.
+
+
+Risk Analysis
+Risk modeling can be a useful way for organizations to set investment priorities. But many risk models suffer from vague, non-quantified output that is hastily compiled, based on partial information, based on unfounded assumptions, or is difficult to take action on.
+
+Threat intelligence provides context that helps risk models make defined risk measurements and be more transparent about their assumptions, variables, and outcomes. It can help answer questions such as:
+
+Which threat actors are using this attack, and do they target our industry?
+How often has this specific attack been observed recently by enterprises like ours?
+Is the trend up or down?
+Which vulnerabilities does this attack exploit, and are those vulnerabilities present in our enterprise?
+What kind of damage, technical and financial, has this attack caused in enterprises like ours?
+Asking the right questions with Recorded Future’s threat intelligence is one of the ways users see an 86 percent reduction in unplanned downtime — a huge difference when even a minute of downtime can cost some organizations up to $9,000 in lost productivity and other damages.
+
+
+Fraud Prevention
+To keep your organization safe, it isn’t enough to only detect and respond to threats already exploiting your systems. You also need to prevent fraudulent uses of your data or brand.
+
+Threat intelligence gathered from underground criminal communities provides a window into the motivations, methods, and tactics of threat actors, especially when this intelligence is correlated with information from the surface web, including technical feeds and indicators.
+
+Use threat intelligence to prevent:
+
+Payment fraud — Monitoring sources like criminal communities, paste sites, and other forums for relevant payment card numbers, bank identifier numbers, or specific references to financial institutions can provide early warning of upcoming attacks that might affect your organization.
+Compromised data — Cybercriminals regularly upload massive caches of usernames and passwords to paste sites and the dark web, or make them available for sale on underground marketplaces. Monitor these sources with threat intelligence to watch out for leaked credentials, corporate data, or proprietary code.
+Typosquatting — Get real-time alerts on newly registered phishing and typosquatting domains to prevent cybercriminals from impersonating your brand and defrauding unsuspecting users.
+By avoiding more breaches with threat intelligence, Recorded Future users are able to save over $1 million per potential breach through damaging fines, penalties, and lost consumer trust.
+
+
+Security Leadership
+CISOs and other security leaders must manage risk by balancing limited available resources against the need to secure their organizations from ever-evolving threats. Threat intelligence can help map the threat landscape, calculate risk, and give security personnel the intelligence and context to make better, faster decisions.
+
+Today, security leaders must:
+
+Assess business and technical risks, including emerging threats and “known unknowns” that might impact the business
+Identify the right strategies and technologies to mitigate the risks
+Communicate the nature of the risks to top management, and justify investments in defensive measures
+Threat intelligence can be a critical resource for all these activities, providing information on general trends, such as:
+
+Which types of attacks are becoming more (or less) frequent
+Which types of attacks are most costly to the victims
+What new kinds of threat actors are coming forward, and the assets and enterprises they are targeting
+The security practices and technologies that have proven the most (or least) successful in stopping or mitigating these attacks
+It can also enable security groups to assess whether an emerging threat is likely to affect their specific enterprise based on factors such as:
+
+Industry — Is the threat affecting other businesses in our vertical?
+Technology — Does the threat involve compromising software, hardware, or other technologies used in our enterprise?
+Geography — Does the threat target facilities in regions where we have operations?
+Attack method — Have methods used in the attack, including social engineering and technical methods, been used successfully against our company or similar ones?
+With these types of intelligence, gathered from a broad set of external data sources, security decision makers gain a holistic view of the cyber risk landscape and the greatest risks to their enterprise.
+
+Here are four key areas where threat intelligence helps security leaders make decisions:
+
+Mitigation — Threat intelligence helps security leaders prioritize the vulnerabilities and weaknesses that threat actors are most likely to target, giving context on the TTPs those threat actors use, and therefore the weaknesses they tend to exploit.
+Communication — CISOs are often challenged by the need to describe threats and justify countermeasures in terms that will motivate non-technical business leaders, such as cost, impact on customers, new technologies. Threat intelligence provides powerful ammunition for these discussions, such as the impact of similar attacks on companies of the same size in other industries or trends and intelligence from the dark web indicating that the enterprise is likely to be targeted.
+Supporting leaders — Threat intelligence can provide security leaders with a real-time picture of the latest threats, trends, and events, helping security leaders respond to a threat or communicate the potential impact of a new threat type to business leaders and board members in a timely and efficient manner.
+The security skills gap — CISOs must make sure the IT organization has the human resources to carry out its mission. But cybersecurity’s skills shortage means existing security staff frequently cope with unmanageable workloads. Threat intelligence automates some of the most labor-intensive tasks, rapidly collecting data and correlating context from multiple intelligence sources, prioritizing risks, and reducing unnecessary alerts. Powerful threat intelligence also helps junior personnel quickly “upskill” and perform above their experience level.
+
+Reducing Third-Party Risk
+Third Party Risk
+
+Countless organizations are transforming the way they do business through digital processes. They’re moving data from internal networks to the cloud, and gathering more information than ever before.
+
+Making data easier to collect, store, and analyze is certainly changing many industries for the better, but this free flow of information comes with a price. It means that to assess the risk of our own organization, we also have to consider the security of our partners, vendors, and other third parties.
+
+Unfortunately, many of the most common third-party risk management practices employed today are lagging behind security requirements. Static assessments of risk, like financial audits and security certificate verifications, are still important, but they often lack context and aren’t always timely. There’s a need for a solution that offers real-time context on the actual threat landscape.
+
+Threat intelligence is one way to do just that. It can provide transparency into the threat environments of the third parties you work with, providing real-time alerts on threats and changes to their risks and giving you the context you need to evaluate your relationships.
